@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cookies</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+ <!-- header at the top of every page  -->
+  <body>
+  <div class="header">
+    <h1>Cookies?</h1>
+    <p>Not the edible kind, the computer kind!</p>
+  </div>
+ <!--nav bar with 5 tabs -->
+  <div class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="thirdparty.html">THIRD PARTY</a>
+    <a href="crosssite.html">CROSS-SITE SCRIPTING (XSS)</a>
+    <a href="quiz.html">QUIZ</a>
+    <a href="references.html">REFERENCES</a>
+  </div>    
+ <!--main class with text-->
+  <div class="main">
+      <h2>More about Cross-Site Scripting</h2>
+      <p>Cross-site Scripting is malicious script that allows hackers to insert into a server. It allows hackers to get many victims as they are able to execute attacks on big companies and do it in ways that manipulate many people. Once a hacker has gotten through, they are able to act as the user and gain access to the users’ sensitive data. There are many different types of Cross-Site Scripting, 
+      reflective, stored and DOM-based. Each one of the methods are used depending on what the hacker is trying to use to obtain the users data. Reflected XXS is when a malicious script is placed within a website and convinces the user into executing it like by clicking on a link. We are seeing this commonly now with phishing attempts. Phishing attempts are sometimes extremely hard to recognize, we 
+      see them often mimic emails you would usually get. For instance, if you typically get emails from Netflix when you need to update your payment details hackers will change slight things like using a .com email instead of a .org email in order to trick people into thinking they are actually updating their information with Amazon. Stored XXS is where the attacker injects code into a web application. When 
+      the user loads the page that is when the attack is triggered. DOM-Based XXS is where a hacker gains access to the users side by manipulating the Document Object Model of a page. This type of scripting is the hardest to do but also the hardest to fix. </p>
+
+      <h2>Real-word Cross-Site Scripting example</h2>
+      <p>In 2015 a group of hackers were able to install keyloggers into the POS system at Wendy's. The hackers were able to breach from an XSS vunerabilty through a
+        customer feed back form. Keyloggers are a type of malware that keeps track of your keystrokes as you type. The hackers were able to take this and gain over 5.5 million payment cards.
+        Wendy's was then faced with a class action lawsuit that costed $50 million dollars in setllement. It showed how just a small crack in the system can open up hackers to have so much more information, putting so many at risk. </p>
+ <!--PDF that can be viewed from the pgae-->
+      <h2>Prevention Methods</h2>
+      <p>After seeing how much damage came from a small error in a customer feedback form, it is important to make sure that companies are constantly updating their code to prevent these things from happening. A helpful resource companies can use to reduce their vulnerability to XSS attacks is this <a href="https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/xss_cheat_sheet_2016.pdf?lang=pt-BR" target="_blank">XSS Cheat Sheet by Adobe</a>. It outlines coding best practices to minimize exposure to XSS threats and should be reviewed regularly by web development teams.</p>
+      <p>You can also <strong>view the XSS Cheat Sheet directly</strong> below:</p>
+      <iframe src="https://experienceleague.adobe.com/docs/experience-manager-65-lts/assets/xss_cheat_sheet_2016.pdf?lang=pt-BR" width="100%" height="600px" style="border:1px solid #ccc;"></iframe>
+    </div>
+
+  </div>
+
+<!--footer at bottom of page with 5 tabs -->
+  <div class="footer">
+    <h2>Table of Contents</h2>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./thirdparty.html">Third-party cookies</a></li>
+      <li><a href="./crosssite.html">Cross-site Scripting</a></li>
+      <li><a href="./quiz.html">Quiz</a></li>
+      <li><a href="./references.html">References</a></li>
+  </div>
+  </body>
+</html>

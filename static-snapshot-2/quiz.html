@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quizstyle.css" />
+    <script src="scripts.js" defer></script>
+    <title>Cookie Quiz</title>
+  </head>
+<!-- header at the top of every page  -->
+  <body>
+    <div class="header">
+      <h1>Cookies?</h1>
+      <p>Not the edible kind, the computer kind!</p>
+    </div>
+ <!--nav bar with 5 tabs -->
+    <div class="navbar">
+      <a href="index.html">HOME</a>
+      <a href="thirdparty.html">THIRD PARTY</a>
+      <a href="crosssite.html">CROSS-SITE SCRIPTING (XSS)</a>
+      <a href="quiz.html">QUIZ</a>
+      <a href="references.html">REFERENCES</a>
+    </div>
+ <!--quiz container with buttons -->
+<!--quiz container with buttons -->
+    <main class="main">
+      <div class="quiz-container">
+        <div id="question-container">
+          <h3 id="question">Question</h3>
+          <div id="answer-buttons"></div>
+        </div>
+        <button id="next-btn" class="btn hide">Next</button>
+        <div id="result" class="hide"></div>
+        <button id="restart-btn" class="btn hide">Restart</button>
+      </div>
+    </main>
+ <!--footer at bottom of page with 5 tabs -->
+    <div class="footer">
+      <h2>Table of Contents</h2>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./thirdparty.html">Third-party cookies</a></li>
+        <li><a href="./crosssite.html">Cross-site Scripting</a></li>
+        <li><a href="./quiz.html">Quiz</a></li>
+        <li><a href="./references.html">References</a></li>
+    </div>
+  </body>
+</html>
+
+
